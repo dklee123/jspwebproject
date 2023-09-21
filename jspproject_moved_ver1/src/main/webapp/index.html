@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVED</title>
+    <!-- reset -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- material icon -->
+    <!-- style.css @import 로 변경-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<header>
+	    	<!--로고-->
+    		<div class="logo">
+		
+			</div>		
+  		 	<div class="headname">
+				<a href = main.jsp><img src = "images/logo.png"></a>	
+		    </div>
+
+            
+            <!-- 로그인 | 회원가입 -->
+            <div class="util"></div>
+
+            <!-- 메인 메뉴 -->
+
+            <div class="menu">
+                <nav>
+                    <ul class="pc">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Moved 소개</a></li>
+                        <li><a href="#">Moved 내용</a></li>
+                        <li><a href="#">고객센터</a></li>
+                        <li><a href="#" class="contact-link">contact us</a></li> 
+                    </ul>
+                    <ul class="mobile">
+                        <li>
+                            <a href="index.html"><span class="material-symbols-outlined">home</span></a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" id="btn-menu"><span class="material-symbols-outlined">menu</span></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+			<script src="js/script.js"></script>
+		
+</header>
+
+<body>
+    <!-- 사이드바 -->
+   	 <aside id="sidebar">
+	        <!-- X (닫기) 버튼 -->
+	        <div class="top flex main-end">
+	            <a href="javascript:;" id="btn-close">
+	                <span class="material-symbols-outlined">close</span>
+	            </a>
+	        </div>
+	        <!-- 사이드바 - 메인 메뉴 -->
+	        <ul>
+	                <li><a href="index.html" class="home-link">Home</a></li>
+	                <li><a href="#" class="home-link">Moved 소개</a></li>
+	                <li><a href="#" class="home-link">Moved 내용</a></li>
+	                <li><a href="#" class="home-link">고객센터</a></li>
+	                <li><a href="#" class="contact-link">contact us</a></li>
+	        </ul>
+  	  </aside>
+
+		
+		<!-- 메인영역 -->
+
+		<div class="row">
+		<div>
+			<jsp:include page="main_swiper.jsp" />
+		</div>
+			 	<div class="leftcolumn">
+				<div class="card">		   
+				      <h2>moved소개</h2>
+
+				      <div class="fakeimg"><img src="img/10.jpg"></div>
+				      <p>Some text..</p>
+				      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, 
+				        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+				        Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+				      </p>
+			    </div>
+			    <div class="card">
+				      <h2>TITLE HEADING</h2>
+				      <h5>Title description, Sep 2, 2017</h5>
+				      <div class="fakeimg"><img src="img/10.jpg"></div>
+				      <p>Some text..</p>
+				      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, 
+				        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+				        Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+				      </p>
+			    </div>
+			</div>
+		
+			  <div class="rightcolumn">
+				  <div class="card">
+				      <h2>About Me</h2>
+				      <div class="fakeimg"><img src="img/12.jpg"></div>
+				      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+				  </div>
+			      <div class="card">
+				      <h3>Popular Post</h3>
+				      <div class="fakeimg"><p><img src="img/moved2.png"></p></div>
+				      <div class="fakeimg"><p><img src="img/moved2.png"></p></div>
+				      <div class="fakeimg"><p><img src="img/moved2.png"></p></div>
+			      </div>
+			    <div class="card">
+				      <h3>Follow Me</h3>
+				      <p>Some text..</p>
+			    </div>
+			  </div>
+		</div>
+
+				    <table class="board hover">
+					        <thead>
+					            <tr>
+					                <td class="num">번호</td>
+					                <td class="title">제목</td>
+					                <td class="writer">작성자</td>
+					                <td class="date">등록일자</td>
+					                <td class="view">조회수</td>
+					            </tr>
+					        </thead>
+					        <tbody id="board-data">
+					            <tr>
+					                <td colspan="5">조회된 데이터가 없습니다.</td>
+					            </tr>
+			       			</tbody>
+				    </table>
+
+    <!-- footer 부분 -->
+    <footer class="bottom">
+       <!--<div class="container">-->
+            <!--<div class="site-map">-->
+                <ul>
+                    <li>
+                        <p>&copy; Moved since 2023. All rights reserved.</p> 
+                    </li>
+                </ul>
+            </div>
+     </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.wrap { 
+	width: 100%; 
+	min-width: 1000px; 
+	position:relative; 
+}
+	
+section { 
+	width: 90%; 
+	margin:0 auto; 
+	text-align: center; 
+	margin-top: 3em; 
+	border-bottom: 1px solid; 
+}
+
+section p { 
+	text-align:left; 
+	font-size: 1.4em; 
+	letter-spacing: -0.05em; 
+}
+
+.big-title { 
+	font-size: 3em; 
+	text-align: center; 
+}
+
+.pict-box { 
+	width: 90px; 
+	height: 90px; 
+	float:left; 
+	margin-right: 10px; 
+}
+
+.false-height { 
+	display: block; 
+	height: 400px; 
+}

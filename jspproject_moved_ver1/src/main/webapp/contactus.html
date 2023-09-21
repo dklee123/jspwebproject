@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>문의하기</title>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="js/jquery.min.js"></script>
+<link rel="stylesheet" href="css/contactus.css">
+</head>
+<body>
+   <div class="main-content">
+        <section class="left-section">
+			<img src="img/intro_login.png" class="imgs">
+            <h3>문의하기</h3>
+            <p>여기는 고객님의 문의 사항을 적는 곳입니다.</p>
+        </section>
+        <section class="right-section">
+            <form action="#" class="main">
+                <fieldset>
+                    <div class="form-group">
+
+                        <input type="text" id="name" name="firstname" placeholder="이름" onblur="ck_email()">
+                        <span id="MsgId" class="none">aa</span>
+                    </div>
+                    <div class="form-group">
+
+                        <input type="text" id="contact" name="firstname" placeholder="연락처" onblur="ck_email()">
+                        <span id="MsgId" class="none">aa</span>
+                    </div>
+                    <div class="form-group">
+
+                        <input type="email" id="email" name="firstname" placeholder="이메일 ( ex@example.com)" onblur="ck_email()">
+                        <span id="MsgId" class="none">aa</span>
+                    </div>
+                    <div class="form-group">
+
+                        <input type="password" id="pwd" name="lastname" placeholder="내용" onblur="ck_pwd()">
+                        <span id="MsgPw" class="none">유효성체크</span>
+                    </div>
+                </fieldset>
+                <input type="submit" value="전송하기">
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>

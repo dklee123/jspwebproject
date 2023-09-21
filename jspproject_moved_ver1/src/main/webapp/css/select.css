@@ -1,0 +1,111 @@
+@charset "UTF-8";
+section{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 0;
+}
+body {
+   
+}
+
+img.main{
+   width: auto;
+}
+
+.container1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+.container2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+
+.container1  .box {
+    
+    padding: 50px;
+    font-weight: 900;
+}
+    .container1  .box:hover {
+        color: white;
+        background-color: black;
+    }
+.container1 .box h1 {
+    text-align: center;
+}
+.container1 .box p{
+    text-align: center;
+}
+
+.container1 .box p.btn1{
+    text-align: center;
+}
+.container1  .box p.btn-hover1{
+    text-align: center;
+    display: none;
+}
+.container1  .box:hover p.btn1{
+    text-align: center;
+    display: none;
+}
+.container1  .box:hover p.btn-hover1{
+    text-align: center;
+    display: block;
+}
+
+
+div.box{
+    width: 500px;
+    height: 280px;
+}
+div.box2{
+    width: 500px;
+    height: 280px;
+}
+
+.container2  .box2 {
+    
+    padding: 50px;
+    font-weight: 900;
+}
+    .container2  .box2:hover {
+        color: white;
+        background-color: black;
+    }
+
+.container2  .box2 h1{
+    text-align: center;
+}
+.container2  .box2 p{
+    text-align: center;
+}
+
+.container2  .box2 p.btn1{
+    text-align: center;
+}
+.container2  .box2 p.btn-hover1{
+    text-align: center;
+    display: none;
+}
+.container2  .box2:hover p.btn1{
+    text-align: center;
+    display: none;
+}
+.container2  .box2:hover p.btn-hover1{
+    text-align: center;
+    display: block;
+}
+
+
+    a {
+        text-decoration: none;
+        color:black;
+    }
